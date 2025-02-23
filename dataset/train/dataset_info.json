@@ -1,0 +1,45 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 17071424,
+  "description": "",
+  "download_checksums": {
+    "C:/Users/bharw/Documents/GitHub/vettura-genai/Assignments/Assignment_2.3/data/job_descriptions.json": {
+      "num_bytes": 17120178,
+      "checksum": null
+    }
+  },
+  "download_size": 17120178,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "embeddings": {
+      "feature": {
+        "dtype": "float32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 34191602,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 17071424,
+      "num_examples": 6241,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
